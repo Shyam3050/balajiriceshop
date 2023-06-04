@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <div className={styles.navbar}>
         <TfiMenu />
-       <img src={logo} alt="" srcset="" />
-       <p></p>
+        <img src={logo} alt="" srcset="" />
+        <p></p>
       </div>
     </nav>
   );

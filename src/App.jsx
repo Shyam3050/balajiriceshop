@@ -1,17 +1,27 @@
 import "./App.css";
-import unity from "./assets/unity.jpg"
-import { Navbar, ProductContainer, TopNavbar } from "./components";
+import unity from "./assets/unity.jpg";
+import { Footer, Navbar, ProductContainer, TopNavbar } from "./components";
 function App() {
   // const navigate = useNavigate()
   return (
     <div>
       <TopNavbar />
-      <Navbar/>
+      <Navbar />
+
       <img src={unity} className="imgg" alt="" srcset="" />
-      <ProductContainer/>
-      <ProductContainer/>
-      <a target="_blank" href="https://api.whatsapp.com/send?phone=919668221451" className="whatsapp_chat" >
-        <img src="https://www.balajirice.in/assets/images/whatsapp.png" alt="" srcset="" />
+      <ProductContainer />
+      <ProductContainer />
+      <Footer />
+      <a
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=919668221451"
+        className="whatsapp_chat"
+      >
+        <img
+          src="https://www.balajirice.in/assets/images/whatsapp.png"
+          alt=""
+          srcset=""
+        />
       </a>
     </div>
   );

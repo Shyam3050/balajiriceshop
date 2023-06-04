@@ -1,6 +1,6 @@
 import styles from "./css/ProductCard.module.css";
 import basmati from "../../assets/basmati.jpg";
-import {AiOutlineArrowRight} from "react-icons/ai"
+import { AiOutlineArrowRight } from "react-icons/ai";
 const ProductCard = () => {
   return (
     <div className={styles.productCard}>
@@ -10,7 +10,9 @@ const ProductCard = () => {
       <p className={styles.title}>Dabar super Basmati rice</p>
       <p>25kg</p>
       <p className={styles.price}> ₹750 </p>
-      <button>View Detail <AiOutlineArrowRight/></button>
+      <button>
+        View Detail <AiOutlineArrowRight />
+      </button>
     </div>
   );
 };
