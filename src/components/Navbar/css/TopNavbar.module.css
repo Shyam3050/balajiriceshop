@@ -1,0 +1,16 @@
+.topnavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    height: 2.5rem;
+    background-color: #FE0000;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.num{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 16px;
+}

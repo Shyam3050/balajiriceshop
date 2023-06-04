@@ -1,0 +1,10 @@
+.imgg{
+    object-fit: cover;
+    width: 100vw;
+}
+.whatsapp_chat{
+    position: fixed;
+    bottom: 3rem;
+    right: 1rem;
+
+}

@@ -1,0 +1,32 @@
+.p_m_cont{
+    margin-block: 1rem;
+
+}
+.p_cont {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  -ms-overflow-style: none;
+    scrollbar-width: none;
+ overflow-x: scroll;
+}
+.p_cont::-webkit-scrollbar {
+    display: none;
+}
+.p_c_top{
+ display: flex;
+ justify-content: space-between;
+ align-items: center !important;
+ padding: 1rem;
+ font-weight: bold;
+}
+.p_c_top div{
+    border: none;
+    cursor: pointer;
+    background: none;
+    border: 2px solid red;
+    padding: .25rem .5rem;
+}
+.p_c_top div:hover{
+    background-color: rgb(255, 208, 208);
+}
