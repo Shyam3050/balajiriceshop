@@ -1,8 +1,7 @@
 import "./App.css";
 import unity from "./assets/unity.jpg";
-import { Footer, Navbar, ProductContainer, TopNavbar } from "./components";
+import { Category, Footer, Navbar, ProductContainer, TopNavbar } from "./components";
 function App() {
-  // const navigate = useNavigate()
   return (
     <div>
       <TopNavbar />
@@ -10,6 +9,7 @@ function App() {
 
       <img src={unity} className="imgg" alt="" srcset="" />
       <ProductContainer />
+      <Category/>
       <ProductContainer />
       <Footer />
       <a

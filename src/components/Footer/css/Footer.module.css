@@ -1,6 +1,6 @@
 .footer {
-  margin: 1rem auto;
-  width: 320px;
+  margin-top: 1rem;
+  padding: 1rem;
   border-top: 2px solid grey;
 }
 .footer p {
@@ -8,10 +8,10 @@
   font-weight: bold;
 }
 .bottomFooter {
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 0, 0, 0.9);
-  margin: 0 -1rem -1rem;
   color: white;
 }

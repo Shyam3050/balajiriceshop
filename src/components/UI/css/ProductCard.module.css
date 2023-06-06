@@ -34,17 +34,3 @@
   margin-top: 1rem;
   font-size: 15px !important;
 }
-button{
-    cursor: pointer;
-    border:  none;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-top: 1rem;
-    padding: .5rem;
-    font-weight: bold;
-   background: #378739;
-    }
-    button:hover{
-        background-color: #58c45c;
-    }
