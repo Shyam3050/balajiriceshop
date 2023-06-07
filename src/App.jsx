@@ -1,16 +1,15 @@
 import "./App.css";
-import unity from "./assets/unity.jpg";
-import { Category, Footer, Navbar, ProductContainer, TopNavbar } from "./components";
+import {BrandCrousel, Category ,Deals, Footer, Navbar, ProductContainer, TopNavbar } from "./components";
 function App() {
   return (
     <div>
       <TopNavbar />
       <Navbar />
-
-      <img src={unity} className="imgg" alt="" srcset="" />
+      <BrandCrousel/>
       <ProductContainer />
       <Category/>
       <ProductContainer />
+      <Deals/>
       <Footer />
       <a
         target="_blank"

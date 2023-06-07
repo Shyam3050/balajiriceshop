@@ -5,3 +5,5 @@ export { default as ViewAllButton } from "./UI/ViewAllButton";
 export { default as ProductContainer } from "./ProductContainer";
 export { default as Footer } from "./Footer/Footer";
 export { default as Category } from "./Category/Category";
+export { default as Deals } from "./Deals/Deals";
+export { default as BrandCrousel } from "./Swiper/BrandCrousel";

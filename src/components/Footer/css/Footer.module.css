@@ -8,10 +8,10 @@
   font-weight: bold;
 }
 .bottomFooter {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 0, 0, 0.9);
+  background-color: rgba(206, 5, 5, 0.9);
   color: white;
 }
