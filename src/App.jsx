@@ -1,5 +1,5 @@
 import "./App.css";
-import {BrandCrousel, Category ,Deals, Footer, Navbar, ProductContainer, TopNavbar } from "./components";
+import {BrandCrousel,ChatButton, Category ,Deals, Footer, Navbar, ProductContainer, TopNavbar } from "./components";
 function App() {
   return (
     <div>
@@ -11,17 +11,7 @@ function App() {
       <ProductContainer />
       <Deals/>
       <Footer />
-      <a
-        target="_blank"
-        href="https://api.whatsapp.com/send?phone=919668221451"
-        className="whatsapp_chat"
-      >
-        <img
-          src="https://www.balajirice.in/assets/images/whatsapp.png"
-          alt=""
-          srcset=""
-        />
-      </a>
+      <ChatButton/>
     </div>
   );
 }

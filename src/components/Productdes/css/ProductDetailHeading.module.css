@@ -1,0 +1,21 @@
+.h_c{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 1rem;
+    gap: .75rem;
+
+}
+.h_c p{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 2rem;
+    background-color: red;
+    color: white;
+    padding: .5rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+.d_c{
+    margin: 2rem 1rem;
+}

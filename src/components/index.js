@@ -7,3 +7,6 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Category } from "./Category/Category";
 export { default as Deals } from "./Deals/Deals";
 export { default as BrandCrousel } from "./Swiper/BrandCrousel";
+export { default as ProductSlider } from "./Swiper/ProductSlider";
+export { default as ChatButton } from "./UI/ChatButton";
+export { default as ProductDetailHeading } from "./Productdes/ProductDetailHeading";

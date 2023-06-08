@@ -1,0 +1,26 @@
+.swiper {
+  width: 300px;
+  height: 400px;
+  border: 1px solid lightgray;
+}
+
+.swiper_slide {
+  overflow: hidden;
+}
+.swiper_slide img {
+  background: grey;
+}
+
+.back {
+  padding: 0.5rem 1rem 0;
+}
+.back a {
+  display: flex;
+  gap: 10px;
+  /* justify-content: center; */
+  align-items: center;
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+}
